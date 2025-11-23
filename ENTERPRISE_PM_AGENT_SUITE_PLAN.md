@@ -11,9 +11,13 @@ Create a comprehensive suite of AI agents for Enterprise Product Managers, struc
 
 ### Execution Strategy: The "Draft-Review" Loop
 To avoid "blank page" fatigue, we will use a **Draft-Review** methodology for **ALL Modules (0-6)**.
-1.  **Proposal**: I will generate a complete draft of the agent's personality, tone, and workflow logic based on "Best Practice" defaults.
-2.  **Reasoning**: I will explicitly state *why* I chose those defaults (e.g., "Chosen 'Skeptical' tone for Market Sentinel to avoid false positives").
-3.  **Review**: You simply approve or tweak the draft.
+1.  **Proposal**: I will generate a **Truly Comprehensive Specification** for each agent, one by one.
+    -   **Agent Profile**: Role, Type (Simple/Expert/Module), Icon, Personality (with Rationale), Principles (with Rationale), Critical Actions (with Rationale).
+    -   **Workflow Specs**: Goal, Configuration, Interaction Style, Step Logic, Outputs, Validation.
+    -   **[NEW] Copy-Paste Readiness**: Explicit definition of how the output can be immediately used (e.g., "Slack Block", "Markdown Snippet").
+    -   **[NEW] The Audition**: A simulated output scenario to judge tone and quality.
+2.  **Review**: You approve or tweak the specific details.
+3.  **Build**: I create the files only after approval.
 
 ### Phase 1: Foundation & Pilot (Vertical Slice)
 *Goal: Build a working skeleton with Module 0 and Module 1 to validate architecture immediately.*
@@ -66,7 +70,7 @@ Create a `README.md` file in the root directory to document the project scope, a
 - **Core Principles:** [To be defined]
 - **Critical Actions:** [To be defined]
 - **Workflows:**
-    - `route-request`: Analyzes user intent, asks clarifying questions if needed, and dispatches the request to the correct single agent or combination of agents.
+    - `route-request`: The single entry point. Analyzes user intent and dispatches to specialist agents. **[NEW]** If intent is unclear or user asks for help, proactively presents a "Capabilities Menu" of what the suite can do.
         - **Core Configuration:** [Description, Standalone]
         - **Interaction Style:** [Intent/Prescriptive, Interactivity Level]
         - **Step Logic & Flow:** [Goals, Branching, Repetition]
