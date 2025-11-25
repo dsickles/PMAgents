@@ -89,7 +89,7 @@ Create a `README.md` file in the root directory to document the project scope, a
         - **Outputs & Templates:** [Artifacts, Variables]
         - **Validation:** [Success Criteria, Checklists]
 
-#### [NEW] [workflow-orchestrator.md](file:///c:/Users/Sickl/.gemini/antigravity/scratch/PMAgents/BMAD-METHOD/.bmad/custom/agents/workflow-orchestrator.md)
+#### [NEW] [chain-commander.md](file:///c:/Users/Sickl/.gemini/antigravity/scratch/PMAgents/BMAD-METHOD/.bmad/custom/agents/chain-commander.md)
 - **Role:** Automates multi-step handoffs between specialist agents to execute complex end-to-end processes.
 - **Type:** [Simple/Expert/Module]
 - **Icon:** [Emoji]
@@ -109,7 +109,7 @@ Create a `README.md` file in the root directory to document the project scope, a
         - **Step Logic & Flow:** [Goals, Branching, Repetition]
         - **Outputs & Templates:** [Artifacts, Variables]
         - **Validation:** [Success Criteria, Checklists]
-    - `strategy-refresh-chain`: Orchestrates the flow from Review (OKR Guardian) -> Roadmap Update (Portfolio & Release Orchestrator) -> **[APPROVAL GATE]** -> Alignment (Session Facilitator).
+    - `strategy-refresh-chain`: Orchestrates the flow from Review (Outcome Guardian) -> Roadmap Update (Portfolio & Release Orchestrator) -> **[APPROVAL GATE]** -> Alignment (Session Facilitator).
         - **Core Configuration:** [Description, Standalone]
         - **Interaction Style:** [Intent/Prescriptive, Interactivity Level]
         - **Step Logic & Flow:** [Goals, Branching, Repetition]
@@ -151,13 +151,13 @@ Create a `README.md` file in the root directory to document the project scope, a
 - **Core Principles:** [To be defined]
 - **Critical Actions:** [To be defined]
 - **Workflows:**
-    - `roadmap-planning`: Convenes Market Sentinel, Portfolio & Release Orchestrator, OKR Guardian, Strategic Account Advocate, Data & Feedback Strategist, and Compliance Officer to align on strategic objectives and roadmap priorities.
+    - `roadmap-planning`: Convenes Market Sentinel, Portfolio & Release Orchestrator, Outcome Guardian, Strategic Account Advocate, Data & Feedback Strategist, and Compliance Officer to align on strategic objectives and roadmap priorities.
         - **Core Configuration:** [Description, Standalone]
         - **Interaction Style:** [Intent/Prescriptive, Interactivity Level]
         - **Step Logic & Flow:** [Goals, Branching, Repetition]
         - **Outputs & Templates:** [Artifacts, Variables]
         - **Validation:** [Success Criteria, Checklists]
-    - `release-planning`: Orchestrates Market Sentinel, Portfolio & Release Orchestrator, OKR Guardian, Strategic Account Advocate, Data & Feedback Strategist, Requirement Architect, Compliance Officer, Agile Captain, and Bugs & Tech Debt Steward to plan and validate release scope.
+    - `release-planning`: Orchestrates Market Sentinel, Portfolio & Release Orchestrator, Outcome Guardian, Strategic Account Advocate, Data & Feedback Strategist, Requirement Architect, Compliance Officer, Agile Captain, and Bugs & Tech Debt Steward to plan and validate release scope.
         - **Core Configuration:** [Description, Standalone]
         - **Interaction Style:** [Intent/Prescriptive, Interactivity Level]
         - **Step Logic & Flow:** [Goals, Branching, Repetition]
@@ -227,7 +227,7 @@ Create a `README.md` file in the root directory to document the project scope, a
         - **Outputs & Templates:** [Artifacts, Variables]
         - **Validation:** [Success Criteria, Checklists]
 
-#### [NEW] [okr-guardian.md](file:///c:/Users/Sickl/.gemini/antigravity/scratch/PMAgents/BMAD-METHOD/.bmad/custom/agents/okr-guardian.md)
+#### [NEW] [outcome-guardian.md](file:///c:/Users/Sickl/.gemini/antigravity/scratch/PMAgents/BMAD-METHOD/.bmad/custom/agents/outcome-guardian.md)
 - **Role:** Ensures roadmap items trace back to strategic objectives.
 - **Type:** [Simple/Expert/Module]
 - **Icon:** [Emoji]
@@ -241,7 +241,7 @@ Create a `README.md` file in the root directory to document the project scope, a
         - **Step Logic & Flow:** [Goals, Branching, Repetition]
         - **Outputs & Templates:** [Artifacts, Variables]
         - **Validation:** [Success Criteria, Checklists]
-    - `generate-okr-draft`: Drafts new Objectives and Key Results (OKRs) based on company strategy documents.
+    - `generate-outcome-draft`: Drafts new Strategic Outcomes and Metrics based on company strategy documents.
         - **Core Configuration:** [Description, Standalone]
         - **Interaction Style:** [Intent/Prescriptive, Interactivity Level]
         - **Step Logic & Flow:** [Goals, Branching, Repetition]
@@ -684,13 +684,13 @@ Create a `README.md` file in the root directory to document the project scope, a
 ## Quality Assurance Checklist
 - [ ] **Module 0: Orchestration**
     - [ ] Chief of Staff (Agent & Workflows)
-    - [ ] Workflow Orchestrator (Agent & Workflows)
+    - [ ] Chain Commander (Agent & Workflows)
     - [ ] PM Toolkit (Agent & Workflows)
     - [ ] Session Facilitator (Agent & Workflows)
 - [ ] **Module 1: Strategy & Market**
     - [ ] Market Sentinel (Agent & Workflows)
     - [ ] Portfolio & Release Orchestrator (Agent & Workflows)
-    - [ ] OKR Guardian (Agent & Workflows)
+    - [ ] Outcome Guardian (Agent & Workflows)
 - [ ] **Module 2: User & Data Insights**
     - [ ] Strategic Account Advocate (Agent & Workflows)
     - [ ] Data & Feedback Strategist (Agent & Workflows)
