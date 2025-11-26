@@ -36,7 +36,7 @@ The "Brain" of the suite. All agents read from these files to ensure alignment.
     *   `meeting-minutes-synthesizer`: Ingests raw transcripts and outputs structured minutes with decisions and action items.
     *   `decision-framework-selector`: Recommends the best decision-making model (RACI, DACI, SPADE) for a problem.
     *   `document-quality-audit`: Scores a PRD or Spec against a "Quality Rubric" (Clarity, Completeness, Feasibility).
-*   **Session Facilitator**: Manages real-time collaboration and workshops.
+*   **Session Facilitator**: Orchestrates collaboration between specialized agents to generate unified workshop deliverables, ensuring all perspectives are integrated into final decisions.
     *   `roadmap-planning`: Facilitates a session to prioritize features and define the roadmap.
     *   `release-planning`: Guides the team through scope negotiation and release commitment.
     *   `design-engineering-handoff`: Structured protocol for handing off designs to engineering, ensuring no details are lost.
